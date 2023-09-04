@@ -1,0 +1,41 @@
+.color{
+    background-color: rgba(26, 26, 26, 0.884); color: white;
+    width: 100%;
+    border: 1px solid ;
+    padding-top:25px ;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+*{
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+#colorName{
+    color: rgb(150, 150, 255);
+}
+body{
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+button{
+    font-size: 1rem;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+

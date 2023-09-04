@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(29, 24, 24);
+    color: white;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.wrapper{
+    background-color: rgb(81, 79, 79);
+    padding-bottom: 20px;
+}
+h1{
+    background-color: rgb(9, 9, 9);
+
+}
+#guess{
+    font-size: 4rem;
+    padding:50px;
+}
+input[type=text]{
+    margin-top: 20px;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 40px;
+}
+input[type=submit]{
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+}
+#newGame{
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+}
+#newGame:hover{
+    background-color: white;
+    color: black;
+}input[type=submit]:hover{
+    background-color: white;
+    color: black;
+}

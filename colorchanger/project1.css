@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.canvas{
+    width: 80%;
+    text-align: center;
+
+}
+span{
+    display: block;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    /* background-color: grey; */
+    display: inline-block;
+    border: 1px solid black;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color:blue;
+}
+#yellow{
+    background-color: yellow;
+}

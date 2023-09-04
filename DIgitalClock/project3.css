@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    height: 100vh;
+}
+#clock{
+    background-color:rgb(255, 166, 0) ;
+    font-size: 3rem;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
